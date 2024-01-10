@@ -42,21 +42,21 @@ Check the Chat Application
 
 To test the real-time functionality:
 
-Submit a Message:
+1. Submit a Message:
 
   In one of the tabs (http://localhost:3000/chat.html) or browsers, type a message in the input field and press "Send" or press Enter. 
 
-Observe Real-Time Updates:
+2. Observe Real-Time Updates:
 
   On the same tab where you submitted the message, check if the message appears in the chat area immediately after you submit it.
 
-Check Other Tabs or Browsers:
+3. Check Other Tabs or Browsers:
 
   Switch to the other open tabs or browsers.
 
   Observe if the message you sent appears in real-time on these tabs without manually refreshing the page.
 
-Check SSE Endpoint:
+4. Check SSE Endpoint:
 
   Open a new tab or browser.
 
