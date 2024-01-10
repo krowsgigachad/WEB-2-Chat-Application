@@ -34,3 +34,26 @@ Install dependencies: npm install
  3. /echo: Echoes back the input query parameter in various formats (normal, shouty, character count, and backwards). 
 
  4. /sse: Establishes a Server-Sent Events (SSE) connection and sends real-time messages.
+
+Check the Chat Application
+To test the real-time functionality:
+
+Submit a Message:
+
+In one of the tabs (http://localhost:3000/chat.html) or browsers, type a message in the input field and press "Send" or press Enter. 
+
+Observe Real-Time Updates:
+
+On the same tab where you submitted the message, check if the message appears in the chat area immediately after you submit it.
+
+Check Other Tabs or Browsers:
+
+Switch to the other open tabs or browsers.
+
+Observe if the message you sent appears in real-time on these tabs without manually refreshing the page.
+Check SSE Endpoint:
+
+Open a new tab or browser.
+
+Navigate to http://localhost:3000/sse.
+Observe if real-time messages are received from the server.
