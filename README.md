@@ -19,13 +19,13 @@ Navigate to the project directory: cd mychat
 
 Install dependencies: npm install
 
-Usage:
-Start the server: node server.js
-Open a web browser and go to http://localhost:3000 to access the chat application.
-Open multiple tabs or browsers to simulate multiple users and start chatting in real-time.
+  Usage:
+ Start the server: node server.js
+ Open a web browser and go to http://localhost:3000 to access the chat application.
+ Open multiple tabs or browsers to simulate multiple users and start chatting in real-time.
 
-Routes:
-/: Responds with a plain text message "hi".
-/json: Responds with a JSON object containing a text property set to "hi" and a numbers property set to an array [1, 2, 3].
-/echo: Echoes back the input query parameter in various formats (normal, shouty, character count, and backwards).
-/sse: Establishes a Server-Sent Events (SSE) connection and sends real-time messages.
+  Routes:
+ /: Responds with a plain text message "hi".
+ /json: Responds with a JSON object containing a text property set to "hi" and a numbers property set to an array [1, 2, 3]. 
+ /echo: Echoes back the input query parameter in various formats (normal, shouty, character count, and backwards). 
+ /sse: Establishes a Server-Sent Events (SSE) connection and sends real-time messages.
