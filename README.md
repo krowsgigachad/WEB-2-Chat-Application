@@ -1,4 +1,4 @@
-# MyChat - Real-Time Chat Application
+# MyChat - Real-Time Chat Application Akhmetov Daniyar SE - 2228
 
 MyChat is a simple real-time chat application built using Node.js, Express, and Socket.io. It allows users to send and receive messages in real-time.
 
@@ -17,7 +17,12 @@ Make sure you have Node.js installed on your machine.
 
 Navigate to the project directory: cd mychat
 
-Install dependencies: npm install
+Dependencies are:
+
+Express: A web application framework for Node.js.
+Socket.io: A library that enables real-time, bidirectional, and event-based communication.
+
+To install these dependencies, you can run the following command in your project directory: npm install express socket.io
 
 ## Usage:
  1. Start the server: node server.js
